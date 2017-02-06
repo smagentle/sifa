@@ -297,6 +297,7 @@ class JbxxController extends Controller {
     	$this -> assign('c1',$c1);
     	$this -> assign('id',$id);
 
+<<<<<<< HEAD
         $pic=M('picture');
         $stus1=$pic-> where("id='$_SESSION[id]'")->select();
         $stus=0;
@@ -307,6 +308,8 @@ class JbxxController extends Controller {
         }
         $this->assign('stus',$stus);
 
+=======
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
     	$this -> display();
     }
     
@@ -724,6 +727,12 @@ class JbxxController extends Controller {
     		$img->add($data);
     	}
     }
+<<<<<<< HEAD
+=======
+    function blbe(){
+        $this->display();
+    }
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
     function uppic(){
         $pic=M("picture");
 
@@ -747,7 +756,11 @@ class JbxxController extends Controller {
             $data[path]="Public/picture/".$day."/".$se.".".$info[upload][ext];
             $pic->add($data);
 
+<<<<<<< HEAD
             $this ->success('照片上传成功！',U('Jbxx/jbxxiframe3','status=1'),1);//
+=======
+        $this ->success('照片上传成功！');//,U('Jbxx/jbxxiframe3'),1
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
         }
     }
     

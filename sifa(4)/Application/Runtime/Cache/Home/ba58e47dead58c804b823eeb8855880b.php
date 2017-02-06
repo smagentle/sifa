@@ -660,9 +660,15 @@
 			<tr height="30"></tr>
 			<tr>
 				<td colspan="3" align="center" id="button">
+<<<<<<< HEAD
 					<?php if($stus == 0): ?><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
 							<input type="button" value="上传图片" onclick="ajup"/>
 						</a><?php endif; ?>
+=======
+					<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+						<input type="button" value="上传图片"/>
+					</a>
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
 					<input type="button" value="添加图片" onclick="inser()" />
 					<input type="submit" value="保&nbsp;存"/>
 				</td>
@@ -674,7 +680,11 @@
 		<p style="text-align:right;">
 			<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a>
 		</p>
+<<<<<<< HEAD
   		<form action="/sifa(4)/index.php?s=/Home/Jbxx/uppic" method="post" enctype="multipart/form-data" style="text-align:center;">
+=======
+  		<form action="/sifa(4)/index.php?s=/Home/Jbxx/uppic" enctype="multipart/form-data" method="post" style="text-align:center;">
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
   			<h4><input type="file" name="upload" style="border:none; outline:none;width:300px;background:none;height:40px;"/></h4>
 			<input type="submit" value="添加" style="height:35px;font-size:22px;color:#000;"/><br/><br/>
   		</form>
@@ -683,10 +693,16 @@
   </div>
   <script>
   	var bl5=document.getElementById("tab3");
+<<<<<<< HEAD
 	bl5.onclick=function(){
 		if(<?php echo ($stus); ?>==0){
 	    	alert("如需添加图片，请上传图片之后再进行文本录入！");
 		}
+=======
+	alert(bl5.length);
+	bl5.onclick=function(){
+	   alert("如需添加图片，请上传图片之后再进行文本录入！");
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
 	}
   	var bldiv=document.getElementById("bldiv");
   	alert(ImagePath);

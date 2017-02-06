@@ -244,11 +244,19 @@
   		$v2.value = $v1.value;
   		$v5.value = $v0.value+$v3.value+$v4.value;
 	}
+<<<<<<< HEAD
   	/*function down(){
   		if(document.getElementById("vcode1").value == ''){
   			alert('委托人/方不能为空！');
   		}
   	}*/
+=======
+  	function down(){
+  		if(document.getElementById("vcode1").value == ''){
+  			alert('委托人/方不能为空！');
+  		}
+  	}
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
   	function up(){
         $v3 = document.getElementById("vcode3");
         $v5 = document.getElementById("vcode5");

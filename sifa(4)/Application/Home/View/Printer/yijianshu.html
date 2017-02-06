@@ -193,12 +193,16 @@
 		<div class="con">	
 			<h3>二、检案摘要</h3>
 			<div contenteditable="true" id="jazy" class="edi">
+<<<<<<< HEAD
 				<?php
 					$jy1=trim($jy);
 					$jy1=strip_tags($jy1);
 					$jy=str_replace('<br>','',$jy1);
 					echo $jy.'<br>';
 				?>		
+=======
+				{$jy}<br/>		
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
 			&nbsp;&nbsp;根据中华人民共和国司法部令第132号《司法鉴定程序通则》第十一条，第十二条，第十六条，<?php echo substr($wts[0][wtdate],0,4)?>年<?php echo substr($wts[0][wtdate],5,2)?>月<?php echo substr($wts[0][wtdate],8,2)?>日由{$wts[0][wtrname]}委托我中心，要求为{$jtbl[0][bjtrname]}进行{$jtbl[0][jdsx]}。
 			</div>
 			<textarea name="jazy" id="tjazy"></textarea>

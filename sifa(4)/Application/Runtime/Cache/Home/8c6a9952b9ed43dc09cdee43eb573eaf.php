@@ -149,7 +149,11 @@
 			<table class="jbqk1">
 			<tr>
 				<td colspan="2"><h3>一、基本情况</h3></td>
+<<<<<<< HEAD
 				<td rowspan="4"><img src="<?php echo ($path); ?>" style="width:114px;height:151px;margin-right:45px;"/></td>
+=======
+				<td rowspan="4"><img src="<?php echo ($path); ?>" style="width:114px;height:151px;margin-right:20px;" /></td>
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
 			</tr>
 			<tr>
 				<td width="110px;"><h3>委 托 方:</h3></td>
@@ -192,8 +196,12 @@
 			</tr>
 			<tr>
 				<td colspan="3" style="line-height:30px;">
+<<<<<<< HEAD
 					<?php
  $jazy=strip_tags($jieguo[0][jazy],'<br>'); echo $jazy; ?>
+=======
+					<?php echo ($jieguo[0][jazy]); ?>
+>>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
 				</td>
 			</tr>
 			<tr>

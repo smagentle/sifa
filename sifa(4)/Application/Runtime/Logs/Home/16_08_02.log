@@ -1,0 +1,6 @@
+[ 2016-08-02T15:43:39+08:00 ] ::1 /sifa/index.php?s=/Home/Sys/add.html
+ERR: 模板不存在:./Application/Home/View/Sys/add.html
+
+[ 2016-08-02T17:26:13+08:00 ] ::1 /sifa/index.php?s=/Home/Sys/addzj.html
+ERR: 非法操作:addzj
+

@@ -1,0 +1,12 @@
+[ 2016-09-22T11:16:47+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe.html
+ERR: 1054:Unknown column 'dp_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sf_shenqing` WHERE ( dp_id = '201609221' ) 
+
+[ 2016-09-22T15:38:20+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/index/id/shenqs.html
+ERR: 1062:Duplicate entry '201609221' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sf_shenqing` (`name`,`sex`,`year`,`month`,`day`,`sheng`,`shi`,`xian`,`address`,`idcard`,`sgyear`,`sgmonth`,`sgday`,`sghour`,`sgsec`,`sgaddress`,`sgaddress1`,`gjssbw`,`gjssbw1`,`zhengz`,`zhengz1`,`yiyuan`,`zhenduan`,`zyyear`,`zymonth`,`zyday`,`zyyiyuan`,`zy1year`,`zy1month`,`zy1day`,`zy1yiyuan`,`zy1zhenduan`,`buwei`,`leibie`,`fenlei`,`qtjd`,`phone`,`dailiren`,`guanxi`,`sqyear`,`sqmonth`,`sqday`,`id`) VALUES ('张永昌','男','1967','3','1','河北','定州','','叮咛店镇中流村267号','132401196703014211','2016','4','10','10','20','107国道唐河收费站','','拳头','左眼','出血、疼痛、','视物不清','定州市人民','左眼挫伤，左下泪小管断裂，头部外伤，左下肢外伤，腰外伤','2016','5','9','河北省眼科','0','0','0','','','1','1','3','','','','','0','0','0','201609221')
+
+[ 2016-09-22T17:37:09+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/index/id/shenqs.html
+ERR: 1062:Duplicate entry '201609221' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `sf_shenqing` (`name`,`sex`,`year`,`month`,`day`,`sheng`,`shi`,`xian`,`address`,`idcard`,`sgyear`,`sgmonth`,`sgday`,`sghour`,`sgsec`,`sgaddress`,`sgaddress1`,`gjssbw`,`gjssbw1`,`zhengz`,`zhengz1`,`yiyuan`,`zhenduan`,`zyyear`,`zymonth`,`zyday`,`zyyiyuan`,`zy1year`,`zy1month`,`zy1day`,`zy1yiyuan`,`zy1zhenduan`,`buwei`,`leibie`,`fenlei`,`qtjd`,`phone`,`dailiren`,`guanxi`,`sqyear`,`sqmonth`,`sqday`,`id`) VALUES ('张永昌','男','1967','3','1','河北','定州','','叮咛店镇中流村','132401196703014211','2016','4','10','10','20','107国道唐河收费站','','拳头','左眼','出血、疼痛','视物不清','定州市人民','左眼挫伤，左下泪小管断裂，头部外伤，左下肢外伤，腰外伤','2016','5','9','河北省眼科','0','0','0','','','1','1','3','','','','','0','0','0','201609221')
+

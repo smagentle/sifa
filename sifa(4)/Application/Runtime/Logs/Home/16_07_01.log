@@ -1,0 +1,62 @@
+[ 2016-07-01T11:41:37+08:00 ] ::1 /sifa/index.php/Home/Login/index.html
+ERR: 1146:Table 'sifa.sf_sf_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sf_sf_user`
+
+[ 2016-07-01T11:42:07+08:00 ] ::1 /sifa/index.php/Home/Login/index.html
+ERR: 1054:Unknown column 'admin1' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sf_user` WHERE ( username=admin1 ) 
+
+[ 2016-07-01T11:43:01+08:00 ] ::1 /sifa/index.php/Home/Login/index.html
+ERR: 1054:Unknown column 'admin1' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sf_user` WHERE ( username=admin1 ) LIMIT 1  
+
+[ 2016-07-01T12:00:33+08:00 ] ::1 /sifa/index.php/Home/Login/index.html
+ERR: 1054:Unknown column 'admin1' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sf_user` WHERE ( username=admin1 ) LIMIT 1  
+
+[ 2016-07-01T12:01:55+08:00 ] ::1 /sifa/index.php/Home/Login/index.html
+ERR: 1054:Unknown column 'admin' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sf_user` WHERE ( username=admin ) 
+
+[ 2016-07-01T14:16:06+08:00 ] ::1 /sifa/index.php/Home/Login/%7B:U(Login/login)%7D
+ERR: 非法操作:{:U(Login
+
+[ 2016-07-01T14:16:49+08:00 ] ::1 /sifa/index.php/Home/Login/U(Login/login)
+ERR: 非法操作:U(Login
+
+[ 2016-07-01T15:00:12+08:00 ] ::1 /sifa/index.php/Home/Login/loign.html
+ERR: 非法操作:loign
+
+[ 2016-07-01T15:00:48+08:00 ] ::1 /sifa/index.php/Home/Login/loign.html
+ERR: 非法操作:loign
+
+[ 2016-07-01T16:03:19+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:03:54+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:04:46+08:00 ] ::1 /sifa/index.php/Home/Index/jbxx.html
+ERR: 非法操作:jbxx
+
+[ 2016-07-01T16:08:25+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:08:35+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:26:04+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:28:41+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:29:02+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:35:53+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+
+[ 2016-07-01T16:54:53+08:00 ] ::1 /sifa/index.php/Home/Index/indexiframe.html
+ERR: 非法操作:indexiframe
+

@@ -1,0 +1,16 @@
+[ 2016-09-30T14:56:56+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== $a[0][name] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_zhuanjia` WHERE ( zhuanye == $a[0][name] ) 
+
+[ 2016-09-30T14:57:38+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe2.html
+ERR: :
+ [ SQL语句 ] : SELECT * FROM `sf_zhuanjia` WHERE ( zhuanye == <?php echo ($a[0][name]); ?> ) 
+
+[ 2016-09-30T14:57:50+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe2.html
+ERR: :
+ [ SQL语句 ] : SELECT * FROM `sf_zhuanjia` WHERE ( zhuanye == <?php echo ($a[0][name]); ?> ) 
+
+[ 2016-09-30T14:58:05+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe2.html
+ERR: :
+ [ SQL语句 ] : SELECT * FROM `sf_zhuanjia` WHERE ( zhuanye = <?php echo ($a[0][name]); ?> ) 
+

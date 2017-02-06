@@ -1,0 +1,30 @@
+[ 2016-10-10T10:24:41+08:00 ] ::1 /sifa/index.php?s=/sifa/Public.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Sifa
+
+[ 2016-10-10T10:27:35+08:00 ] ::1 /sifa/index.php?s=/__PUBLIC__/2016-10-10/201610100001.jpg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2016-10-10T10:28:18+08:00 ] ::1 /sifa/index.php?s=/__PUBLIC__/Uploads/2016-10-10/201610100001.jpg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__PUBLIC__
+
+[ 2016-10-10T10:46:49+08:00 ] ::1 /sifa/index.php?s=/PUBLIC/Uploads/2016-10-10/201610100001.jpg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:PUBLIC
+
+[ 2016-10-10T10:47:00+08:00 ] ::1 /sifa/index.php?s=/PUBLIC/Uploads/2016-10-10/201610100001.jpg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:PUBLIC
+

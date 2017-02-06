@@ -1,0 +1,293 @@
+@charset "utf-8";
+body {
+	width:99%;
+	font-family: Arial, Helvetica;
+	background:#F1F7FD;
+}
+a{
+	text-decoration:none;
+}
+input{ font-size:16px;}
+#tabs {
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#tabs li {
+	float: left;
+	margin: 0 .5em 0 0;
+}
+#tabs a {
+	position: relative;
+	background: #ddd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+	background-image: -webkit-linear-gradient(top, #fff, #ddd);
+	background-image: -moz-linear-gradient(top, #fff, #ddd);
+	background-image: -ms-linear-gradient(top, #fff, #ddd);
+	background-image: -o-linear-gradient(top, #fff, #ddd);
+	background-image: linear-gradient(to bottom, #fff, #ddd);
+	padding: .7em 1.5em;
+	float: left;
+	text-decoration: none;
+	color: #000;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+	-webkit-border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+	border-radius: 5px 0 0 0;
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+	font-weight:bold;
+}
+ #tabs a:hover, #tabs a:hover::after, #tabs a:focus, #tabs a:focus::after {
+ background: #fff;
+}
+#tabs a:focus {
+	outline: 0;
+}
+ #tabs a::after {
+ content:'';
+ position:absolute;
+ z-index: 1;
+ top: 0;
+ right: -.5em;
+ bottom: 0;
+ width: 1em;
+ background: #ddd;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+ background-image: -webkit-linear-gradient(top, #fff, #ddd);
+ background-image: -moz-linear-gradient(top, #fff, #ddd);
+ background-image: -ms-linear-gradient(top, #fff, #ddd);
+ background-image: -o-linear-gradient(top, #fff, #ddd);
+ background-image: linear-gradient(to bottom, #fff, #ddd);
+ -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+ -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+ box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+ -webkit-transform: skew(10deg);
+ -moz-transform: skew(10deg);
+ -ms-transform: skew(10deg);
+ -o-transform: skew(10deg);
+ transform: skew(10deg);
+ -webkit-border-radius: 0 5px 0 0;
+ -moz-border-radius: 0 5px 0 0;
+ border-radius: 0 5px 0 0;
+}
+ #tabs #current a, #tabs #current a::after {
+ background: #fff;
+ z-index: 3;
+}
+/* ------------------------------------------------- */
+
+#content {
+	background: #fff;
+	padding: 2em;
+	height:auto;
+	position: relative;
+	z-index: 2;
+	-moz-border-radius: 0 5px 5px 5px;
+	-webkit-border-radius: 0 5px 5px 5px;
+	border-radius: 0 5px 5px 5px;
+	-moz-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+	box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+}
+/* ------------------------------------------------- */
+
+#about {
+	color: #999;
+}
+#about a {
+	color: #eee;
+}
+.tit{ width:100%;}
+.con{ margin-left:16%;}
+.con tr,td{ padding:5px;}
+.but{ width:100%;}
+label{ padding:1%;}
+/*input{ border:none; border-bottom:1px solid #333; font-size:16px; color:#999;}*/
+#button input{ width:10%; height:28px; border:1px dashed #0099FF; background:#0099FF; color:#FFFFFF; font-size:16px; font-weight:bold; outline:none;}
+span{ position:absolute; margin-left:1%;}
+span input{ border:none; background:#0099FF; color:#FFFFFF;}
+#鉴定完毕 input{ width:15%; height:30px; border:1px dashed #0099FF; background:#0099FF; color:#FFFFFF; font-size:16px; font-weight:bold;}
+
+/*基本信息input样式*/
+.hei{ height:15px;}
+.hei_b{ height:50px;}
+.qianzi{ padding-left:33%;}
+input{ outline:none;}
+input[name="sqs[name]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:13%; text-align:center;}
+input[name="sqs[sex]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[year]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[month]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[day]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[sheng]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[shi]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[xian]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[address]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:30%;}
+input[name="sqs[idcard]"]{border:none; border-bottom:1px solid #333; font-size:16px;  width:30%;}
+input[name="sqs[sgyear]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgmonth]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgday]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sghour]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgsec]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgaddress]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:30%;}
+input[name="sqs[sgaddress1]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:27%;}
+input[name="sqs[gjssbw]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:32.5%;}
+input[name="sqs[gjssbw1]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:50%;}
+input[name="sqs[zhengz]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:13%;}
+input[name="sqs[zhengz1]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:35%;}
+input[name="sqs[yiyuan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:24%;}
+input[name="sqs[zhenduan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:53%;}
+input[name="sqs[zyyear]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[zymonth]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[zyday]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[zyyiyuan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:22.5%;}
+input[name="sqs[zyzhenduan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:40.5%;}
+input[name="sqs[zy1year]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[zy1month]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[zy1day]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[zy1yiyuan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:20%;}
+input[name="sqs[zy1zhenduan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:30%;}
+input[name="sqs[shenqr]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[phone]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[dailiren]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[guanxi]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[sqyear]"]{border:none; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[sqmonth]"]{border:none; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[sqday]"]{border:none; font-size:16px; width:7%; text-align:center;}
+textarea[name="sqs[qtjd]"]{  margin-left:10%; margin-top:-3.1%; border:none; line-height:2.0; resize:none;}
+
+/*委托书样式*/
+.bh{ margin-left:15%; width:71%;}
+.bh input{ border:none; border-bottom:1px solid #333; font-size:16px;}
+.table-ji{
+	width:71%;
+	border:1px solid #333;
+	marign-top:5%;
+	margin-left:15%;
+	font-size:16px;
+}
+.bg,.bg1,.bg2,.bg3{ width:99.62%; border-collapse:collapse; margin:1px 1px;}
+.bg td{ border:1px solid #333; height:30px;}
+.bg td input{ width:99%; height:30px; border:none;}
+#gdwidth{ width:17%; text-align:center;}
+#gdwidth1{ width:17%; border-bottom:0px; text-align:center;}
+#gdwidth2{ width:17%; border-top:0px; text-align:center;}
+#gdwidth3{ width:12%; text-align:center;}
+#gdwidth4{ width:40%;}
+.bg1 td{ border:1px solid #333;}
+.jdjgxx td{ border:none;}
+.bg2 td{ border:1px solid #333; height:50px;}
+.bg2 td input[name="wts[jdsx]"],input[name="wts[ycrq]"],input[name="wts[bctq]"],input[name="wts[hbjdr]"],input[name="wts[jdfy1]"],input[name="wts[jdshixian]"]{ width:8%; border:none; border-bottom:1px solid #333; text-align:center; font-size:16px;}
+.bg3 td{ border:1px solid #333;}
+p{margin-left:15%;}
+.bg3 .qzgz{ width:100%; height:100%; margin-top:-10px;}
+.bg3 .qzgz td{ border:none;}
+.qzgz input{ border:none; width:15%; text-align:center; font-size:16px;}
+input[name="wts[qtfs]"]{ border:none; width:400px; font-size:16px;}
+input[name="wts[jdfy]"]{ border:none; width:80px; font-size:16px; text-align:center;}
+input[name="wts[wtrname1]"]{ border:none; width:31%; text-align:center;}
+input[name="wts[youji]"]{ border:none; width:78%;}
+input[name="wts[bgsx]"]{width:99.5%; height:70%; font-size: 16px; background:#FFF; border:none;}
+#feiyong{ height:40px;}
+textarea[name="wts[jdcl]"],textarea[name="wts[jdfy]"],textarea[name="wts[jdfx]"],textarea[name="wts[ydsx]"]{border:none; text-align:left; font-size:16px; margin-top:0.5%; resize:none; line-height:2.0;}
+
+/*回避认定书样式*/
+.ttitle{ width:80%; margin-left:6%; letter-spacing:4px;}
+.ttitle input{ border:none; width:5%;}
+.ttitle1{ width:80%; margin-left:15%; letter-spacing:4px; text-indent:38px;}
+.ttitle1 input{ border:none; width:17.5%; border-bottom:1px solid #333;}
+.hbscon{ width:80%; margin-left:11%; border-collapse:collapse; text-align:center; letter-spacing:4px;}
+.hbscon td{ border:1px solid #333; height:30px;}
+.contit{ font-weight:bold;}
+.hbsbottom{ width:70%; text-align:right; margin-left:15%;}
+input[name="hbs[qzname]"]{ border:none; width:20%; border-bottom:1px solid #333; font-size:16px;}
+input[name="hbs[qzyear]"],input[name="hbs[qzmonth]"],input[name="hbs[qzday]"]{ border:none; width:6%; text-align:center; font-size:15px;}
+.zjname{ border:none; font-size:16px; width:100%; text-align:center;}
+.sfhb{ border:none; font-size:16px; width:100%; text-align:center;}
+.sfhb1{ border:none; font-size:16px;}
+.hbly{ width:196px; height:30px; border:none;}
+
+/*接谈笔录样式*/
+.jtblcon{ width:80%; margin-left:10.5%; border-collapse:collapse; word-break:break-all;}
+.jtblcon #contit{ border:none; width:100%;border-bottom:3px solid #333;font-size:18px; font-weight:bold;}
+.jtblcon #cons{ border:none; width:100%; height:35px;}
+.jtblcon input{ border:none; font-size:16px;}
+input[name='jtbl[date]']{ width:12%;}
+input[name='jtbl[didan]']{ width:15%;}
+input[name='jtbl[bjtrname]']{ width:10%;}
+input[name='jtbl[jtrname]']{ width:18%;}
+input[name='jtbl[sex]']{ width:8%; text-align:center;}
+input[name='jtbl[csyear]'],input[name='jtbl[csmonth]'],input[name='jtbl[csday]']{ width:6%; text-align:center;}
+input[name='jtbl[idaddress]'],input[name='jtbl[idcard]'],input[name='jtbl[jdsx]']{ width:33%;}
+input[name='jtbl[minzu]']{ width:10%;}
+input[name='jtbl[ygqk]']{width:83%;}
+input[name='upload']{background:#FFF;}
+input[name='jtbl[ygqk]'],input[name='jtbl[ygqk1]'],input[name='jtbl[ygqk2]'],input[name='jtbl[ygqk3]'],input[name='jtbl[ygqk4]'],input[name='jtbl[ygqk5]'],input[name='jtbl[ygqk6]'],input[name='jtbl[ygqk7]'],input[name='jtbl[ygqk8]'],input[name='jtbl[ygqk9]'],input[name='jtbl[ygqk10]'],input[name='jtbl[ygqk11]'],input[name='jtbl[ygqk12]'],input[name='jtbl[ygqk13]'],input[name='jtbl[ygqk14]'],input[name='jtbl[ygqk15]'],input[name='jtbl[ygqk16]'],input[name='jtbl[ygqk17]'],input[name='jtbl[ygqk18]'],input[name='jtbl[ygqk19]'],input[name='jtbl[ygqk20]'],input[name='jtbl[ygqk21]'],input[name='jtbl[ygqk22]'],input[name='jtbl[ygqk23]'],input[name='jtbl[ygqk24]'],input[name='jtbl[ygqk25]'],input[name='jtbl[ygqk26]'],input[name='jtbl[ygqk27]'],input[name='jtbl[ygqk28]'],input[name='jtbl[ygqk29]'],input[name='jtbl[ygqk30]']{ width:101%;}
+.jtblcon #conbottom{ border-bottom:3px solid #333; height:35px;}
+span{ outline:none; font-size:16px; margin-left:-1px; margin-top:-5px;}
+#conend{ text-align:right; font-size:18px; font-weight:bold; width:100%;}
+#bldiv{
+	width:80%;height:875px;margin-left:10.5%;
+	border-collapse:collapse; word-break:break-all;
+	line-height:35px;font-size:16px;
+	border-bottom:3px solid #333;outline:none;
+}
+.black_overlay{ 
+    display: none; 
+    position: absolute; 
+    top: 0%; 
+    left: 0%; 
+    width: 100%; 
+    height: 100%; 
+    background-color: black; 
+    z-index:1001; 
+    -moz-opacity: 0.8; 
+    opacity:.80; 
+    filter: alpha(opacity=88); 
+} 
+.white_content { 
+    display: none; 
+    position: absolute; 
+    top: 63%; 
+    left: 25%; 
+    width: 55%; 
+    height: 15%; 
+    padding: 20px; 
+    border: 2px solid blue; 
+    background-color: white; 
+    z-index:1002; 
+    overflow: auto; 
+} 
+/*鉴定意见书*/
+#鉴定意见书{ height:auto; background:#FFF;}
+.con_t,.con_c,.con_f{ width:100%;}
+.jbqk{ width:100%; margin-top:0%;}
+.jbqk1{ width:100%;}
+.jazy{ width:100%; margin-top:2%; font-size:16px;}
+.jbqk td{ padding:10px;}
+.jbqk1 td{ padding:5px;}
+.jazy td{ padding:5px;}
+.space{ width:40px;}
+.space1{ width:120px;}
+p{text-indent:2em; line-height:2em; letter-spacing:1px;}
+img{ border:none; width:150px; height:160px;}
+h3{ font-family:黑体;}
+ul{ list-style:none; }
+
+/*********决定书**********/
+.jds{
+	width:80%;margin:0px auto;line-height:50px;
+}
+.jds table{
+	width:100%;
+}
+.jds table td{
+	line-height:50px;
+}
+.jds input{
+	border:0px;outline:none;
+	width:40px;text-align:center;
+}

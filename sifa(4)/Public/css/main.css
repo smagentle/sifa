@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,pre,a,code,em,img,small,strong,sub,sup,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+a{color:#007bc4/*#424242*/; text-decoration:none;}
+a:hover{text-decoration:underline}
+ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+body{height:100%; font:12px/18px "Microsoft Yahei", Tahoma, Helvetica, Arial, Verdana, "\5b8b\4f53", sans-serif; color:#51555C; background:#fff;}
+img{border:none}
+
+#wizard {font-size:16px;height:1600px;width:100%;overflow:hidden;position:relative;-moz-border-radius:5px;-webkit-border-radius:5px; margin-top:1%;}
+#wizard .items{width:100%; clear:both; position:absolute;}
+.shenqs {width:100%;}
+.tit{ width:100%; margin-top:40px; text-align:center;}
+.con{ border:1px solid #333; width:80%;}
+#wizard .right{float:right;}
+#wizard #status{height:35px;background:#123;padding-left:25px !important;}
+#status li{float:left;color:#fff;padding:10px 30px; text-align:center;}
+#status li.active{background-color:#369;font-weight:normal;}
+
+.page{padding:20px 30px;width:500px;float:center;}
+.page p{line-height:24px;}
+.page p label{font-size:14px; display:block;}
+.btn_nav{height:36px; line-height:36px; margin:20px auto;}
+.prev,.next{width:100px; height:32px; line-height:32px; background:url(btn_bg.gif) repeat-x bottom; border:1px solid #d3d3d3; cursor:pointer}
+
+#main{ border:2px solid #789;width:99.5%; height:auto;  background:#FFF; -moz-border-radius:8px;-khtml-border-radius: 8px;-webkit-border-radius: 8px; border-radius:8px;}
+
+
+/*申请书*/
+.hei{ height:15px;}
+.hei_b{ height:50px;}
+.qianzi{ padding-left:33%;}
+input[name="sqs[name]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:13%; text-align:center;}
+input[name="sqs[sex]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[year]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[month]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[day]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[sheng]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[shi]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[xian]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[address]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:30%;}
+input[name="sqs[idcard]"]{border:none; border-bottom:1px solid #333; font-size:16px;  width:30%;}
+input[name="sqs[sgyear]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgmonth]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgday]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sghour]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgsec]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[sgaddress]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:30%;}
+input[name="sqs[sgaddress1]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:27%;}
+input[name="sqs[gjssbw]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:32.5%;}
+input[name="sqs[gjssbw1]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:50%;}
+input[name="sqs[zhengz]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:13%;}
+input[name="sqs[zhengz1]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:35%;}
+input[name="sqs[yiyuan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:24%;}
+input[name="sqs[zhenduan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:53%;}
+input[name="sqs[zyyear]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[zymonth]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[zyday]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:6%; text-align:center;}
+input[name="sqs[zyyiyuan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:22.5%;}
+input[name="sqs[zyzhenduan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:40.5%;}
+input[name="sqs[zy1year]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[zy1month]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[zy1day]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[zy1yiyuan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:20%;}
+input[name="sqs[zy1zhenduan]"]{border:none; border-bottom:1px solid #333; font-size:16px; width:30%;}
+input[name="sqs[shenqr]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[phone]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[dailiren]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[guanxi]"]{border:none; font-size:16px; width:20%;}
+input[name="sqs[sqyear]"]{border:none; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[sqmonth]"]{border:none; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[sqday]"]{border:none; font-size:16px; width:7%; text-align:center;}

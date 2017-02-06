@@ -1,0 +1,7 @@
+[ 2016-08-04T11:57:17+08:00 ] ::1 /sifa/index.php?s=/Home/Sys/del.html
+ERR: 非法操作:del
+
+[ 2016-08-04T16:55:16+08:00 ] ::1 /sifa/index.php?s=/Home/Sys/sysiframe.html
+ERR: 1054:Unknown column 'dp_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sf_zhuanjia` WHERE ( dp_id = '' ) 
+

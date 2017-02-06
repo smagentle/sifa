@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+body{
+		background:#FFFFFF;	
+	}
+a{
+	text-decoration:none;
+}
+.content{
+	margin:2% 2%;
+}
+.jigou{
+	border-bottom:1px solid #333;
+}
+span{ font-size:18px; font-weight:bold;}
+#addjigou{ float:right;}
+.jgtable{ margin-top:2%;}
+.jgtable table{ text-align:center; }
+.jgtable table .gray{ background:#F5F5F5; font-weight:bold;}
+.jgtable table td{ height:30px;}
+.con td{ border-bottom:1px solid #333;}
+.space{ height:80px;}
+.zjtable{ margin-top:2%;}
+.zjtable table{ text-align:center; margin-left:12%; }
+.zjtable table .gray{ background:#F5F5F5; font-weight:bold;}
+.zjtable table td{ height:30px;}
+
+/*机构弹出层样式*/
+.reveal-modal-bg{position:fixed;height:100%;width:100%;background-color:#000;z-index:100;display:none;top:0;left:0;}
+.reveal-modal{visibility:hidden;top:12%;left:50%;margin-left:-250px;width:420px;background:#eee url(modal-gloss.png) no-repeat -200px -80px;position:absolute;z-index:101;padding:30px 40px 34px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow:0 0 10px rgba(0,0,0,.4);-webkit-box-shadow:0 0 10px rgba(0,0,0,.4);-box-shadow:0 0 10px rgba(0,0,0,.4);}
+.reveal-modal .close-reveal-modal {
+font-size:22px;line-height:.5;position:absolute;top:16px;right:11px;color:#aaa;text-shadow:0 -1px 1px rbga(0,0,0,.6);font-weight:bold;cursor:pointer;}
+.reveal-modal table{ margin-left:12%;}
+.reveal-modal input{ width:200px; height:20px;}
+.reveal-modal input[name="button"]{ width:100px; height:30px;}
+
+/*专家弹出层样式*/
+.reveal-modal1-bg{position:fixed;height:100%;width:100%;background-color:#000;z-index:100;display:none;top:0;left:0;}
+.reveal-modal1{visibility:hidden;top:20%;left:50%;margin-left:-250px;width:420px;background:#eee url(modal-gloss.png) no-repeat -200px -80px;position:absolute;z-index:101;padding:30px 40px 34px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow:0 0 10px rgba(0,0,0,.4);-webkit-box-shadow:0 0 10px rgba(0,0,0,.4);-box-shadow:0 0 10px rgba(0,0,0,.4);}
+.reveal-modal1 .close-reveal-modal {
+font-size:22px;line-height:.5;position:absolute;top:16px;right:11px;color:#aaa;text-shadow:0 -1px 1px rbga(0,0,0,.6);font-weight:bold;cursor:pointer;}
+.reveal-modal1 table{ margin-left:12%;}
+.reveal-modal1 input{ width:200px; height:20px;}
+.reveal-modal1 input[name="button"]{ width:100px; height:30px;}

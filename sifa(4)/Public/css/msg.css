@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+body{
+	background:	#F5FFFA ;
+	width:99.2%;
+	height:auto;
+}
+a{
+	text-decoration:none;
+}
+.msg{
+	width:50%;
+	height:40%;
+	border:1px double #5a7cfb;
+	margin:13% 26%;
+}
+.top{
+	width:100%;
+	height:25%;
+	background-image:url(../images/msg_ltop.png);
+	background-repeat:no-repeat;
+}
+.con{
+	width:100%;
+	height:40%;
+	text-align:center;
+	margin-top:2%;
+}
+.con #img img{
+	width:50px;
+	height:50px;
+}
+.con #text{
+	margin-top:3%;
+}
+.bottom{
+	margin-top:5.1%;
+	width:100%;
+	height:15%;
+	font-size:14px;
+	background:#E6E6FA;
+	text-align:center;
+	line-height:37px;
+}

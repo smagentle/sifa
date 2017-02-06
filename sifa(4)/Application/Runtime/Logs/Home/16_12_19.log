@@ -1,0 +1,230 @@
+[ 2016-12-19T09:04:59+08:00 ] ::1 /sifa(4)/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+
+[ 2016-12-19T09:04:59+08:00 ] ::1 /sifa(4)/index.php?s=/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-12-19T09:05:12+08:00 ] ::1 /sifa(4)/index.php?s=/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `sf_user` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `sf_department` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sf_user` WHERE ( username='admin' )  [ RunTime:0.0037s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 17 行.
+NOTIC: [8] Use of undefined constant juese - assumed 'juese' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant juese - assumed 'juese' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 18 行.
+NOTIC: [8] Use of undefined constant dp_id - assumed 'dp_id' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 20 行.
+SQL: SELECT * FROM `sf_department` WHERE ( dp_id='1' )  [ RunTime:0.0027s ]
+NOTIC: [8] Use of undefined constant dp - assumed 'dp' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant dp_name - assumed 'dp_name' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant dp_id - assumed 'dp_id' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant dp_id - assumed 'dp_id' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant password - assumed 'password' D:\wamp\www\sifa(4)\Application\Home\Controller\LoginController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-12-19T09:05:16+08:00 ] ::1 /sifa(4)/index.php?s=/Home/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-12-19T09:05:16+08:00 ] ::1 /sifa(4)/index.php?s=/Home/Index/mainiframe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-12-19T09:05:17+08:00 ] ::1 /sifa(4)/index.php?s=/Home/Baogao/baogao.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-12-19T09:05:17+08:00 ] ::1 /sifa(4)/index.php?s=/Home/Baogao/baogaoiframe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-12-19T09:05:25+08:00 ] ::1 /sifa(4)/index.php?s=/Home/Baogao/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `sf_jieguo` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `sf_jieguo` WHERE ( dp_id = '1' and date between '2016-11-01' and '2016-12-20' ) ORDER BY bianhao desc  [ RunTime:0.0066s ]
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Home\Controller\BaogaoController.class.php 第 24 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 49 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 50 行.
+NOTIC: [8] Use of undefined constant department - assumed 'department' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 51 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 52 行.
+NOTIC: [8] Use of undefined constant jieguo - assumed 'jieguo' D:\wamp\www\sifa(4)\Application\Runtime\Cache\Home\e5ce6d40e65096887902bd31cee8abb3.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+

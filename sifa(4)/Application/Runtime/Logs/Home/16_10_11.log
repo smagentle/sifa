@@ -1,0 +1,602 @@
+[ 2016-10-11T17:21:13+08:00 ] ::1 /sifa/index.php?s=/Home/Printer/yijianshu/id/201610111.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sf_shenqing` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sf_shenqing` WHERE ( id = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sf_weituos` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sf_weituos` WHERE ( bianhao = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sf_huibis` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sf_huibis` WHERE ( id = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sf_jietanbl` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%下冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '下冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sf_photo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sf_photo` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `sf_biaozhun1` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 4 D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 222 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'泪器'%'' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_biaozhun1` WHERE ( partname like '一侧'%'泪器'%'' ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'泪器'%'' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_biaozhun1` WHERE ( partname like '一侧'%'泪器'%'' ) 
+
+[ 2016-10-11T17:22:28+08:00 ] ::1 /sifa/index.php?s=/Home/Printer/yijianshu/id/201610111.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sf_shenqing` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sf_shenqing` WHERE ( id = '201610111' )  [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sf_weituos` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sf_weituos` WHERE ( bianhao = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sf_huibis` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sf_huibis` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sf_jietanbl` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '右下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%下冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sf_photo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sf_photo` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `sf_biaozhun1` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 4 D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 222 行.
+SQL: SELECT * FROM `sf_biaozhun1` WHERE ( partname like '一侧%泪器%' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 46 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 50 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant jdcl - assumed 'jdcl' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 58 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csyear - assumed 'csyear' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csmonth - assumed 'csmonth' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csday - assumed 'csday' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idaddress - assumed 'idaddress' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idcard - assumed 'idcard' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant ygqk - assumed 'ygqk' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 85 行.
+NOTIC: [8] Use of undefined constant ygqk1 - assumed 'ygqk1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 86 行.
+NOTIC: [8] Use of undefined constant ygqk2 - assumed 'ygqk2' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 87 行.
+NOTIC: [8] Use of undefined constant ygqk3 - assumed 'ygqk3' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 88 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 89 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 90 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 91 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 92 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 93 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant yiyuan - assumed 'yiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant zyyiyuan - assumed 'zyyiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant gjssbw1 - assumed 'gjssbw1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant gjssbw1 - assumed 'gjssbw1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-11T17:24:24+08:00 ] ::1 /sifa/index.php?s=/Home/Printer/yijianshu/id/201610111.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sf_shenqing` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sf_shenqing` WHERE ( id = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sf_weituos` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sf_weituos` WHERE ( bianhao = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sf_huibis` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sf_huibis` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sf_jietanbl` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '下冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sf_photo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sf_photo` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `sf_biaozhun1` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 4 D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 222 行.
+SQL: SELECT * FROM `sf_biaozhun1` WHERE ( partname like '一侧%泪器%' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 46 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 50 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant jdcl - assumed 'jdcl' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 58 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csyear - assumed 'csyear' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csmonth - assumed 'csmonth' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csday - assumed 'csday' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idaddress - assumed 'idaddress' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idcard - assumed 'idcard' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant ygqk - assumed 'ygqk' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 85 行.
+NOTIC: [8] Use of undefined constant ygqk1 - assumed 'ygqk1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 86 行.
+NOTIC: [8] Use of undefined constant ygqk2 - assumed 'ygqk2' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 87 行.
+NOTIC: [8] Use of undefined constant ygqk3 - assumed 'ygqk3' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 88 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 89 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 90 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 91 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 92 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 93 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant yiyuan - assumed 'yiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant zyyiyuan - assumed 'zyyiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant gjssbw1 - assumed 'gjssbw1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant subcode - assumed 'subcode' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant partcode - assumed 'partcode' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant gjssbw1 - assumed 'gjssbw1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 146 行.
+NOTIC: [8] Use of undefined constant subname - assumed 'subname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-11T17:25:16+08:00 ] ::1 /sifa/index.php?s=/Home/Printer/yijianshu/id/201610111.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sf_shenqing` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sf_shenqing` WHERE ( id = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sf_weituos` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `sf_weituos` WHERE ( bianhao = '201610111' )  [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sf_huibis` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sf_huibis` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sf_jietanbl` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%下冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%下冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sf_photo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sf_photo` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `sf_biaozhun1` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 4 D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 222 行.
+SQL: SELECT * FROM `sf_biaozhun1` WHERE ( partname like '一侧%泪器%' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 46 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 50 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant jdcl - assumed 'jdcl' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 58 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csyear - assumed 'csyear' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csmonth - assumed 'csmonth' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csday - assumed 'csday' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idaddress - assumed 'idaddress' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idcard - assumed 'idcard' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant ygqk - assumed 'ygqk' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 85 行.
+NOTIC: [8] Use of undefined constant ygqk1 - assumed 'ygqk1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 86 行.
+NOTIC: [8] Use of undefined constant ygqk2 - assumed 'ygqk2' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 87 行.
+NOTIC: [8] Use of undefined constant ygqk3 - assumed 'ygqk3' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 88 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 89 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 90 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 91 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 92 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 93 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant yiyuan - assumed 'yiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant zyyiyuan - assumed 'zyyiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant gjssbw1 - assumed 'gjssbw1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant subcode - assumed 'subcode' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant partcode - assumed 'partcode' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant subname - assumed 'subname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 146 行.
+NOTIC: [8] Use of undefined constant subname - assumed 'subname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-11T17:25:25+08:00 ] ::1 /sifa/index.php?s=/Home/Printer/yijianshu/id/201610111.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sf_shenqing` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sf_shenqing` WHERE ( id = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `sf_weituos` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sf_weituos` WHERE ( bianhao = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant bianhao - assumed 'bianhao' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `sf_huibis` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sf_huibis` WHERE ( id = '201610111' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `sf_jietanbl` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 35 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 39 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 47 行.
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右眼挫伤%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右眼挫伤%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%左下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%右下泪小管断裂%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%右下泪小管断裂%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%上冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%上冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，触痛，左上肢肿胀。诊断：左眼挫伤，左眼下睑全层裂伤缝合术后，左下泪小管断裂，头面外伤，左下肢外伤，腰' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '部外伤。2016年4月22日出院。2016年5月9日于河北省眼科医院门诊查：右眼前后节未见明显异常。左' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '眼下睑可见瘢痕，结膜无充血，角膜透明，前房及瞳孔正常，晶体正常，眼底未见著变。验光示：右眼（一），' like '下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '左眼-0.25DS=0.8。泪道冲洗：右眼通畅，左眼下冲下溢，上冲通畅。P-VEP示：右眼大致正常波形' like '%下冲上溢%' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sf_jietanbl` WHERE ( id = '201610111' and '，左眼P波振幅轻度下降。' like '%下冲上溢%' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sf_photo` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sf_photo` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant path - assumed 'path' D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `sf_biaozhun1` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined offset: 4 D:\www\sifa\Application\Home\Controller\PrinterController.class.php 第 222 行.
+SQL: SELECT * FROM `sf_biaozhun1` WHERE ( partname like '一侧%泪器%' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 46 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 50 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 54 行.
+NOTIC: [8] Use of undefined constant jdcl - assumed 'jdcl' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 58 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant date - assumed 'date' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 62 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant sex - assumed 'sex' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csyear - assumed 'csyear' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csmonth - assumed 'csmonth' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant csday - assumed 'csday' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idaddress - assumed 'idaddress' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant idcard - assumed 'idcard' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 70 行.
+NOTIC: [8] Use of undefined constant ygqk - assumed 'ygqk' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 85 行.
+NOTIC: [8] Use of undefined constant ygqk1 - assumed 'ygqk1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 86 行.
+NOTIC: [8] Use of undefined constant ygqk2 - assumed 'ygqk2' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 87 行.
+NOTIC: [8] Use of undefined constant ygqk3 - assumed 'ygqk3' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 88 行.
+NOTIC: [8] Use of undefined constant ygqk4 - assumed 'ygqk4' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 89 行.
+NOTIC: [8] Use of undefined constant ygqk5 - assumed 'ygqk5' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 90 行.
+NOTIC: [8] Use of undefined constant ygqk6 - assumed 'ygqk6' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 91 行.
+NOTIC: [8] Use of undefined constant ygqk7 - assumed 'ygqk7' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 92 行.
+NOTIC: [8] Use of undefined constant ygqk8 - assumed 'ygqk8' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 93 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtdate - assumed 'wtdate' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant wtrname - assumed 'wtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant bjtrname - assumed 'bjtrname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant jdsx - assumed 'jdsx' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 97 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 113 行.
+NOTIC: [8] Use of undefined constant yiyuan - assumed 'yiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant zyyiyuan - assumed 'zyyiyuan' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 116 行.
+NOTIC: [8] Use of undefined constant ygqk9 - assumed 'ygqk9' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk10 - assumed 'ygqk10' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk11 - assumed 'ygqk11' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant ygqk12 - assumed 'ygqk12' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant gjssbw1 - assumed 'gjssbw1' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 131 行.
+NOTIC: [8] Use of undefined constant subcode - assumed 'subcode' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant partcode - assumed 'partcode' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant subname - assumed 'subname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 134 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 146 行.
+NOTIC: [8] Use of undefined constant subname - assumed 'subname' D:\www\sifa\Application\Runtime\Cache\Home\caede826c9813e01ec6b7b64b1a74b8a.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-10-11T17:33:06+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sf_shenqing` [ RunTime:0.0080s ]
+SQL: SELECT MAX(id) AS tp_max FROM `sf_shenqing` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\JbxxController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-11T17:33:08+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sf_jdbw` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `sf_jdbw`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sf_jdlb` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `sf_jdlb`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sf_jdfl` [ RunTime:0.1060s ]
+SQL: SELECT * FROM `sf_jdfl`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sf_department` [ RunTime:0.1050s ]
+SQL: SELECT * FROM `sf_department` WHERE ( dp_id = '1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sf_zhuanjia` [ RunTime:0.0900s ]
+SQL: SELECT * FROM `sf_zhuanjia` WHERE ( dp_id = '1' )  [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `sf_shenqing` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sf_shenqing` WHERE ( id = '201610111' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\www\sifa\Application\Home\Controller\JbxxController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.166010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-11T17:35:23+08:00 ] ::1 /sifa/index.php?s=/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-11T17:35:24+08:00 ] ::1 /sifa/index.php?s=/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

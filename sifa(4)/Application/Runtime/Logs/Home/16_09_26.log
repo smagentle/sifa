@@ -1,0 +1,40 @@
+[ 2016-09-26T16:25:08+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['buwei'] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = Array['buwei'] ) 
+
+[ 2016-09-26T16:27:44+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0][buwei] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = $res5[0][buwei] ) 
+
+[ 2016-09-26T16:29:41+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[buwei] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = Array[buwei] ) 
+
+[ 2016-09-26T16:36:12+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[buwei] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = Array[buwei] ) 
+
+[ 2016-09-26T16:37:29+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0][buwei] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = $res5[0][buwei] ) 
+
+[ 2016-09-26T16:40:00+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[0][buwei] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = $res5[0][buwei] ) 
+
+[ 2016-09-26T16:45:27+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'buwei']' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = 'Array['buwei']' ) 
+
+[ 2016-09-26T17:15:26+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[buwei] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id = Array[buwei] ) 
+
+[ 2016-09-26T17:24:50+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id =  ) 
+
+[ 2016-09-26T17:25:19+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe1.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_jdbw` WHERE ( id =  ) 
+

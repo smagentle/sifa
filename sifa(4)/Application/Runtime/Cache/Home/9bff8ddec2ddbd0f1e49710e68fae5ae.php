@@ -1,0 +1,211 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="/sifa(4)/Public/Css/print.css" />
+<title>申请书</title>
+<style>
+body{ width:100%;font-size:17px;margin:0px auto;}
+/*申请书样式*/
+.hei{ height:15px;}
+.hei_b{ height:50px;}
+.qianzi{ padding-left:33%;}
+/*#content{ margin-left:11%; margin-top:2%;}*/
+#content{ margin-left:-4%;}
+.tit{ width:100%; text-align:center;}
+textarea[name="sqs[qtjd]"]{  margin-left:15%; margin-top:-3.1%; border:none; line-height:2.0; resize:none;}
+.con{margin-top:2%; width:90%;}
+.aaa{text-indent:2em;}
+input{ outline:none;}
+input[name="sqs[name]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:13%; text-align:center;}
+input[name="sqs[sex]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:6%; text-align:center;}
+input[name="sqs[year]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:10%; text-align:center;}
+input[name="sqs[month]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:10%; text-align:center;}
+input[name="sqs[day]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:10%; text-align:center;}
+input[name="sqs[sheng]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:10%; text-align:center;}
+input[name="sqs[shi]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:10%; text-align:center;}
+input[name="sqs[xian]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:10%; text-align:center;}
+input[name="sqs[address]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:34%;}
+input[name="sqs[idcard]"]{border:none; border-bottom:1px solid #333; font-size:17px;  width:30%;}
+input[name="sqs[sgyear]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:8%; text-align:center;}
+input[name="sqs[sgmonth]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:5%; text-align:center;}
+input[name="sqs[sgday]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:5%; text-align:center;}
+input[name="sqs[sghour]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:6%; text-align:center;}
+input[name="sqs[sgsec]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:6%; text-align:center;}
+input[name="sqs[sgaddress]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:33.2%;}
+input[name="sqs[sgaddress1]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:27.5%;}
+input[name="sqs[gjssbw]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:37%;}
+input[name="sqs[gjssbw1]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:50%;}
+input[name="sqs[zhengz]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:20%;}
+input[name="sqs[zhengz1]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:41%;}
+input[name="sqs[yiyuan]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:24%;}
+input[name="sqs[zhenduan]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:57.2%;}
+input[name="sqs[zyyear]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:8%; text-align:center;}
+input[name="sqs[zymonth]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:5%; text-align:center;}
+input[name="sqs[zyday]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:5%; text-align:center;}
+input[name="sqs[zyyiyuan]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:19.5%;}
+input[name="sqs[zyzhenduan]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:42%;}
+input[name="sqs[zy1year]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:7%; text-align:center;}
+input[name="sqs[zy1month]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:7%; text-align:center;}
+input[name="sqs[zy1day]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:7%; text-align:center;}
+input[name="sqs[zy1yiyuan]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:20%;}
+input[name="sqs[zy1zhenduan]"]{border:none; border-bottom:1px solid #333; font-size:17px; width:30%;}
+input[name="sqs[shenqr]"]{border:none; font-size:17px; width:20%;}
+input[name="sqs[phone]"]{border:none; font-size:17px; width:20%;}
+input[name="sqs[dailiren]"]{border:none; font-size:17px; width:20%;}
+input[name="sqs[guanxi]"]{border:none; font-size:17px; width:20%;}
+input[name="sqs[sqyear]"]{border:none; font-size:16px; width:10%; text-align:center;}
+input[name="sqs[sqmonth]"]{border:none; font-size:16px; width:7%; text-align:center;}
+input[name="sqs[sqday]"]{border:none; font-size:16px; width:7%; text-align:center;}
+</style>
+</head>
+
+<body>
+<div id="content">
+	  <table class="tit">
+	  	<tr>
+			<td align="center"><font size='6'>法医鉴定申请书</font></td>
+		</tr>
+	  </table>
+	  <table class="con" align="right">
+	  	<tr class="hei"></tr>
+	  	<tr>
+			<td><?php echo ($dp_name); ?>：</td>
+		</tr>
+	  	<tr class="hei"></tr>
+	  	<tr>
+			<td class="aaa">
+				申请人<input type="text" name="sqs[name]" value="<?php echo ($sqs[0][name]); ?>" />,
+				性别<input type="text" name="sqs[sex]" value="<?php echo ($sqs[0][sex]); ?>" />,
+				<input type="text" name="sqs[year]" value="<?php echo ($sqs[0][year]); ?>" />年
+				<input type="text" name="sqs[month]" value="<?php echo ($sqs[0][month]); ?>" />月
+				<input type="text" name="sqs[day]" value="<?php echo ($sqs[0][day]); ?>" />日出生，
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				系<input type="text" name="sqs[sheng]" value="<?php echo ($sqs[0][sheng]); ?>" />省
+				<input type="text" name="sqs[shi]" value="<?php echo ($sqs[0][shi]); ?>" />市
+				<input type="text" name="sqs[xian]" value="<?php echo ($sqs[0][xian]); ?>" />县（区）
+				<input type="text" name="sqs[address]" maxlength="15" value="<?php echo ($sqs[0][address]); ?>" />人。
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				身份证号：<input type="text" id="card" name="sqs[idcard]" maxlength="18" value="<?php echo ($sqs[0][idcard]); ?>"/>
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				因<input type="text" name="sqs[sgyear]" value="<?php echo ($sqs[0][sgyear]); ?>" />年
+				<input type="text" name="sqs[sgmonth]" value="<?php echo ($sqs[0][sgmonth]); ?>" />月
+				<input type="text" name="sqs[sgday]" value="<?php echo ($sqs[0][sgday]); ?>" />日
+				<input type="text" name="sqs[sghour]" value="<?php echo ($sqs[0][sghour]); ?>" />时
+				<input type="text" name="sqs[sgsec]" value="<?php echo ($sqs[0][sgsec]); ?>" />分,
+				在<input type="text" name="sqs[sgaddress]" maxlength="15" value="<?php echo ($sqs[0][sgaddress]); ?>" />
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				<input type="text" name="sqs[sgaddress1]" maxlength="13" value="<?php echo ($sqs[0][sgaddress1]); ?>" />地点，被（他人用）
+				<input type="text" name="sqs[gjssbw]" maxlength="16" value="<?php echo ($sqs[0][gjssbw]); ?>" />
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				<input type ="text" name="sqs[gjssbw1]" maxlength="25" value="<?php echo ($sqs[0][gjssbw1]); ?>" />部位受伤，出现
+				<input type ="text" name="sqs[zhengz]"  maxlength="6" value="<?php echo ($sqs[0][zhengz]); ?>" />
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				<input type ="text" name="sqs[zhengz1]" maxlength="18" value="<?php echo ($sqs[0][zhengz1]); ?>" />症状。
+				当时于<input type ="text" name="sqs[yiyuan]" maxlength="12" value="<?php echo ($sqs[0][yiyuan]); ?>" />医院住
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				院（门诊）治疗，诊断为：<input type="text" name="sqs[zhenduan]" maxlength="27" value="<?php echo ($sqs[0][zhenduan]); ?>" />；
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				后于<input type="text" name="sqs[zyyear]" value="<?php echo ($sqs[0][zyyear]); ?>" />年
+				<input type="text" name="sqs[zymonth]" value="<?php echo ($sqs[0][zymonth]); ?>" />月
+				<input type="text" name="sqs[zyday]" value="<?php echo ($sqs[0][zyday]); ?>" />日在
+				<input type="text" name="sqs[zyyiyuan]" maxlength="11" value="<?php echo ($sqs[0][zyyiyuan]); ?>" />医院住院（门诊）治疗，诊
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				断为<input type="text" name="sqs[zyzhenduan]" maxlength="21" value="<?php echo ($sqs[0][zyzhenduan]); ?>" />
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="sqs[zy1year]" value="<?php echo ($sqs[0][zy1year]); ?>" />年
+				<input type="text" name="sqs[zy1month]" value="<?php echo ($sqs[0][zy1month]); ?>" />月
+				<input type="text" name="sqs[zy1day]" value="<?php echo ($sqs[0][zy1day]); ?>" />日转
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				入<input type="text" name="sqs[zy1yiyuan]" maxlength="10" value="<?php echo ($sqs[0][zy1yiyuan]); ?>" />医院住院（门诊）治疗。诊断
+				<input type="text" name="sqs[zy1zhenduan]" maxlength="15" value="<?php echo ($sqs[0][zy1zhenduan]); ?>" />。
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				特此申请：
+				<?php if(is_array($buwei)): $i = 0; $__LIST__ = $buwei;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $sq = D('shenqing'); $res = $sq -> field('buwei') -> where("id = '$id'") -> select(); if($i == $res[0][buwei]){ echo "$vo[name](<b>√</b>)"; $i + 1; }else{ echo "$vo[name](&nbsp;)"; $i + 1; } endforeach; endif; else: echo "" ;endif; ?>
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				鉴定类别：
+				<?php if(is_array($leibie)): $i = 0; $__LIST__ = $leibie;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $sq = D('shenqing'); $res = $sq -> field('leibie') -> where("id = '$id'") -> select(); if($i == $res[0][leibie]){ echo "$vo[name](<b>√</b>)&nbsp;&nbsp;"; $i + 1; }else{ echo "$vo[name](&nbsp;)&nbsp;&nbsp;"; $i + 1; } if($i == 3){ echo "<br /><br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; } endforeach; endif; else: echo "" ;endif; ?>
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				伤残鉴定分类：
+				<?php if(is_array($fenlei)): $i = 0; $__LIST__ = $fenlei;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; $sq = D('shenqing'); $res = $sq -> field('fenlei') -> where("id = '$id'") -> select(); if($i == $res[0][fenlei]){ echo "$vo[name](<b>√</b>)"; $i + 1; }else{ echo "$vo[name](&nbsp;)"; $i + 1; } endforeach; endif; else: echo "" ;endif; ?>
+			</td>
+		</tr>
+		<tr class="hei"></tr>
+		<tr>
+			<td>
+				其他鉴定：<br />
+				<textarea cols="65" rows="2" name="sqs[qtjd]"><?php echo ($sqs[0][qtjd]); ?></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td class="qianzi">
+				申&nbsp;请&nbsp;人：<input type="text" name="sqs[shenqr]" value="<?php echo ($sqs[0][shenqr]); ?>" />(签字)<br /><br />
+				联系电话：<input type="text" name="sqs[phone]" value="<?php echo ($sqs[0][phone]); ?>" /><br /><br />
+				代&nbsp;理&nbsp;人：<input type="text" name="sqs[dailiren]" value="<?php echo ($sqs[0][dailiren]); ?>" />(签字)
+				关系：<input type="text" name="sqs[guanxi]" value="<?php echo ($sqs[0][guanxi]); ?>" />
+				<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="text" name="sqs[sqyear]" value="<?php echo ($sqs[0][sqyear]); ?>" />年
+				<input type="text" name="sqs[sqmonth]" value="<?php echo ($sqs[0][sqmonth]); ?>" />月
+				<input type="text" name="sqs[sqday]" value="<?php echo ($sqs[0][sqday]); ?>" />日
+			</td>
+		</tr>
+		<tr class="hei_b"></tr>
+	</table>
+</div>
+<br />
+<br />
+</body>
+</html>

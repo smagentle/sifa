@@ -1,0 +1,39 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="/sifa(4)/Public/Css/baogao.css" />
+<title>无标题文档</title>
+<script type="text/javascript" src="/sifa(4)/Public/Js/lhgcore.js"></script>
+<script type="text/javascript" src="/sifa(4)/Public/Js/lhgcalendar.js"></script>
+</head>
+
+<body>
+	<div class="title">
+		<h3>鉴定报告查询</h3>
+	</div>
+	<div class="xinzeng">
+		<h3><a href="<?php echo U('Jbxx/jbxx');?>" target="_parent">+新增鉴定</a></h3>
+	</div>
+	<div class="con">
+		<form class="frm" method="post" action="<?php echo U('Baogao/index');?>">
+			<div class="one">
+				<input type="text" name="bianhao" value="" />
+				<input type="submit" id="button" value="按鉴定书编号查询" />
+			</div>
+			<!-- <div class="line"></div>
+			<div class="two">
+				<input type="text" name="danwei" value="" />
+				<input type="submit" id="button" value="按委托鉴定单位查询" />
+			</div> -->
+			<div class="line"></div>
+			<div class="three">
+				<input type="text" name="start" value="" id="c10" onclick="J.calendar.get({to:'c11,min'});" />
+				&nbsp;至&nbsp;
+				<input type="text" name="end" value="" id="c11" onclick="J.calendar.get({to:'c10,max'});" />
+				<input type="submit" id="button" value="按鉴定日期查询" />
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[ 2016-10-01T12:51:09+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[name] )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_zhuanjia` WHERE ( zhuanye = Array[name] ) 
+
+[ 2016-10-01T13:02:47+08:00 ] ::1 /sifa/index.php?s=/Home/Jbxx/jbxxiframe2.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '% )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sf_zhuanjia` WHERE ( zhuanye like '�'% ) 
+

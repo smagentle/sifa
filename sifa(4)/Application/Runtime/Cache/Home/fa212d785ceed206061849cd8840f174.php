@@ -225,7 +225,7 @@
         <table>
             <tr>
                 <td align="left">
-                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:150px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
+                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:180px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
                 </td>
             </tr>
             <tr>
@@ -632,7 +632,7 @@
 					<input type="text" name="jtbl[csmonth]" value="<?php echo ($sqs[0][month]); ?>"/>月
 					<input type="text" name="jtbl[csday]" value="<?php echo ($sqs[0][day]); ?>"/>日
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					身份证地址：<input type="text" name="jtbl[idaddress]" value="<?php echo ($sqs[0][sheng]); ?>省<?php echo ($sqs[0][shi]); ?>市<?php echo ($sqs[0][xian]); echo ($sqs[0][address]); ?>" />
+					身份证地址：<input type="text" name="jtbl[idaddress]" value="<?php echo ($jtbl[0][idaddress]); ?>"/>
 				</td>
 			</tr>
 			<tr>

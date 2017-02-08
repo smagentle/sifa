@@ -12,7 +12,7 @@
 <body>
 <ul id="tabs">
   <li><a id="tab" href="#" title="申请书">第1步&nbsp;&nbsp;申请书</a></li>
-  <li><a id="tab0"href="#" title="决定书">第2步&nbsp;&nbsp;决定书</a></li>
+  <li><a id="tab0" href="#" title="决定书">第2步&nbsp;&nbsp;决定书</a></li>
   <li><a id="tab1" href="#" title="委托书">第3步&nbsp;&nbsp;委托书</a></li>
   <li><a id="tab2" href="#" title="回避认定书">第4步&nbsp;&nbsp;回避认定书</a></li>
   <li><a id="tab3" href="#" title="接谈笔录">第5步&nbsp;&nbsp;接谈笔录</a></li>
@@ -193,7 +193,7 @@
         <table>
             <tr>
                 <td align="left">
-                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:150px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
+                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:180px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
                 </td>
             </tr>
             <tr>

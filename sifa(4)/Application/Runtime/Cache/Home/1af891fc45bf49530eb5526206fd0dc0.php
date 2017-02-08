@@ -192,7 +192,7 @@
         <table>
             <tr>
                 <td align="left">
-                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:150px;">（申请人或委托机构：）
+                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:180px;">（申请人或委托机构：）
                 </td>
             </tr>
             <tr>

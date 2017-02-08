@@ -224,7 +224,7 @@
         <table>
             <tr>
                 <td align="left">
-                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:150px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
+                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:180px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
                 </td>
             </tr>
             <tr>
@@ -631,7 +631,7 @@
 					<input type="text" name="jtbl[csmonth]" value="<?php echo ($sqs[0][month]); ?>" style="width:25px;"/>月
 					<input type="text" name="jtbl[csday]" value="<?php echo ($sqs[0][day]); ?>" style="width:25px;"/>日
 					&nbsp;&nbsp;&nbsp;
-					身份证地址:<input type="text" name="jtbl[idaddress]" value="<?php echo ($sqs[0][sheng]); ?>省<?php echo ($sqs[0][shi]); ?>市<?php echo ($sqs[0][xian]); echo ($sqs[0][address]); ?>"/>
+					身份证地址:<input type="text" name="jtbl[idaddress]" value='<?php  if(!empty($sqs[0][sheng])){ $sheng=$sqs[0][sheng]."省"; }else{ $sheng=null; } if(!empty($sqs[0][shi])){ $shi=$sqs[0][shi]."市"; }else{ $shi=null; } if(!empty($sqs[0][xian])){ $xian=$sqs[0][xian]."县"; }else{ $xian=null; } echo $sheng.$shi.$xian.$sqs[0][address]; ?>'/>
 				</td>
 			</tr>
 			<tr>
@@ -660,15 +660,9 @@
 			<tr height="30"></tr>
 			<tr>
 				<td colspan="3" align="center" id="button">
-<<<<<<< HEAD
 					<?php if($stus == 0): ?><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
 							<input type="button" value="上传图片" onclick="ajup"/>
 						</a><?php endif; ?>
-=======
-					<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
-						<input type="button" value="上传图片"/>
-					</a>
->>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
 					<input type="button" value="添加图片" onclick="inser()" />
 					<input type="submit" value="保&nbsp;存"/>
 				</td>
@@ -680,11 +674,7 @@
 		<p style="text-align:right;">
 			<a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">X</a>
 		</p>
-<<<<<<< HEAD
   		<form action="/sifa(4)/index.php?s=/Home/Jbxx/uppic" method="post" enctype="multipart/form-data" style="text-align:center;">
-=======
-  		<form action="/sifa(4)/index.php?s=/Home/Jbxx/uppic" enctype="multipart/form-data" method="post" style="text-align:center;">
->>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
   			<h4><input type="file" name="upload" style="border:none; outline:none;width:300px;background:none;height:40px;"/></h4>
 			<input type="submit" value="添加" style="height:35px;font-size:22px;color:#000;"/><br/><br/>
   		</form>
@@ -692,18 +682,12 @@
     <div id="fade" class="black_overlay"></div>
   </div>
   <script>
-  	var bl5=document.getElementById("tab3");
-<<<<<<< HEAD
+  	/*var bl5=document.getElementById("tab3");
 	bl5.onclick=function(){
 		if(<?php echo ($stus); ?>==0){
 	    	alert("如需添加图片，请上传图片之后再进行文本录入！");
 		}
-=======
-	alert(bl5.length);
-	bl5.onclick=function(){
-	   alert("如需添加图片，请上传图片之后再进行文本录入！");
->>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
-	}
+	}*/
   	var bldiv=document.getElementById("bldiv");
   	alert(ImagePath);
 	function inser(){

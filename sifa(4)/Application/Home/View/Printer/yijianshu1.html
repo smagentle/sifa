@@ -75,34 +75,32 @@
 
 	    $word->start(); 
 	?>
-	<br/><br/><br/><br/><br/>
+	<br><br><br><br><br><br>
 	<div style="width:100%;font-size:17.5px;font-family:仿宋_GB2312;line-height:3em;">
-		<span style="height:3em;">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冀眼法医鉴中心[20{$jieguo[0][ljz]}]临检字第{$jieguo[0][ljh]}号
-		</span>
-		<table border="0" cellspacing="0" cellpadding="0" style="width:100%;line-height:3em;font-size:19px;font-family:仿宋_GB2312;">
+		<div style="line-height:2em;text-align:right;">
+			冀眼法医鉴中心[20{$jieguo[0][ljz]}]临检字第{$jieguo[0][ljh]}号
+			<br><font size="-1">（此处未加盖钢印无效）</font>&emsp;&emsp;&emsp;
+		</div>
+		<table border="0" cellspacing="0" cellpadding="0" style="width:100%;line-height:3em;font-size:17.5px;font-family:仿宋_GB2312;">
 			<tr>
 				<td style="width:55%;">
+					<span style="font-family:黑体;font-size:19.5px;">一、基本情况</span>
 					<br>
-					<span style="font-family:黑体;font-size:20px;">一、基本情况</span>
-					<br>
-					<span style="font-family:黑体;font-size:20px;">委 托 方：</span>
+					<span style="font-family:黑体;font-size:19.5px;">委 托 方：</span>
 					{$jieguo[0][wtf]}<br>
-					<span style="font-family:黑体;font-size:20px;">委托事项：</span>
+					<span style="font-family:黑体;font-size:19.5px;">委托事项：</span>
 					{$jieguo[0][wtsx]}<br>
-					<span style="font-family:黑体;font-size:20px;">受理日期：</span>
+					<span style="font-family:黑体;font-size:19.5px;">受理日期：</span>
 					{$jieguo[0][slrq]}<br>
-					<span style="font-family:黑体;font-size:20px;">鉴定材料：</span>
 				</td>
 				<td style="text-align:center;width:45%;">
-					<font size="-1">（此处未加盖钢印无效）</font><br/>
-					<span style="height:5px;">&nbsp;</span><br>
 					<img src="http://localhost/sifa(4)/{$path}" width="114px" height="151px">
 				</td>
 			</tr>
 		</table>
 		<div style="line-height:3em;">
-			{$wts[0][jdcl]}<br>
+			<span style="font-family:黑体;font-size:19.5px;">
+				鉴定材料：</span>{$wts[0][jdcl]}<br>
 			<span style="font-family:黑体;font-size:20px;">
 				鉴定日期：</span>{$jieguo[0][jdrq]}<br>
 			<span style="font-family:黑体;font-size:20px;">
@@ -114,6 +112,7 @@
 			</span><br>
 				<?php 
 					$jazt=str_replace("Public","http://localhost/sifa(4)/Public",$jieguo[0][jazy]);
+					$jazt=str_replace("&nbsp;&nbsp;","&emsp;&emsp;",$jazt);
 					$jazy=strip_tags($jazt,'<br>');
 					echo $jazy;
 				?><br>
@@ -123,33 +122,33 @@
 				<?php
 					$jygc1=strip_tags($jieguo[0][jygc1]); 
 					$jygc1=trim($jygc1);
-					echo '&nbsp;&nbsp;'.$jygc1.'<br>';
+					echo '&emsp;&emsp;'.$jygc1.'<br>';
 
 					$jygc2=strip_tags($jieguo[0][jygc2]);
 					$jygc2=trim($jygc2);
-					echo '&nbsp;&nbsp;'.$jygc2.'<br>';
+					echo '&emsp;&emsp;'.$jygc2.'<br>';
 					
 					$jygc3=strip_tags($jieguo[0][jygc3]);
 					$jygc3=trim($jygc3);
-					echo '&nbsp;&nbsp;'.$jygc3.'<br>';
+					echo '&emsp;&emsp;'.$jygc3.'<br>';
 				?> 
 			<span style="font-family:黑体;font-size:20px;line-height:3em;">
 				四、分析说明
 			</span><br>
-				&nbsp;&nbsp;1.根据被鉴定人病史、病历记载及现场检查，被鉴定人{$sqs[0][gjssbw1]}{$jieguo[0][fxsm]}损伤符合{$jieguo[0][fxsm1]}所致。
+				&emsp;&emsp;1.根据被鉴定人病史、病历记载及现场检查，被鉴定人{$sqs[0][gjssbw1]}{$jieguo[0][fxsm]}损伤符合{$jieguo[0][fxsm1]}所致。
 			<br>
 				<?php
 					$fxsm2=strip_tags($jieguo[0][fxsm2]);
 					$fxsm2=trim($fxsm2);
-					echo '&nbsp;&nbsp;'.$fxsm2;
+					echo '&emsp;&emsp;'.$fxsm2;
 				?>
 			<br>
-				&nbsp;&nbsp;3.根据最高人民法院、最高人民检察院、公安部、国家安全部、司法部关于发布《人体损伤程度鉴定标准》的公告，第{$jieguo[0][fxsm3]}条第{$jieguo[0][fxsm4]}项，被鉴定人{$sqs[0][gjssbw1]}部损伤可定为{$jieguo[0][fxsm5]}。
+				&emsp;&emsp;3.根据最高人民法院、最高人民检察院、公安部、国家安全部、司法部关于发布《人体损伤程度鉴定标准》的公告，第{$jieguo[0][fxsm3]}条第{$jieguo[0][fxsm4]}项，被鉴定人{$sqs[0][gjssbw1]}部损伤可定为{$jieguo[0][fxsm5]}。
 			<br>
 			<span style="font-family:黑体;font-size:20px;">
 				五、鉴定结论
 			</span><br>
-				&nbsp;&nbsp;被鉴定人{$sqs[0][name]}{$sqs[0][gjssbw1]}损伤为{$jieguo[0][fxsm6]}。<br>
+				&emsp;&emsp;被鉴定人{$sqs[0][name]}{$sqs[0][gjssbw1]}损伤为{$jieguo[0][fxsm6]}。<br><br>
 			<div style="width:60%;margin-left:180px;text-align:left;">
 				&nbsp;主鉴定人：&nbsp;{$jieguo[0][zjdr]}<br/>
 				《司法鉴定人执业证》证号：{$jieguo[0][zjdrzh]}<br/>
@@ -179,22 +178,17 @@
 			<tr>
 				<td class="space"></td>
 				<td class="space"></td>
-				<td align="center">冀眼法医鉴中心[20{$jieguo[0][ljz]}]临检字第{$jieguo[0][ljh]}号</td>
+				<td align="center">&nbsp;&nbsp;&nbsp;&nbsp;冀眼法医鉴中心[20{$jieguo[0][ljz]}]临检字第{$jieguo[0][ljh]}号</td>
 			</tr>
-			<tr>
-				<td class="space1"></td>
-				<td class="space1"></td>
-				<td align="center"><font size="-2">（此处未加盖钢印无效）</font></td>
-			</tr>
+			
 			</table>
 			<table class="jbqk1">
 			<tr>
 				<td colspan="2"><h3>一、基本情况</h3></td>
-<<<<<<< HEAD
-				<td rowspan="4"><img src="{$path}" style="width:114px;height:151px;margin-right:45px;"/></td>
-=======
-				<td rowspan="4"><img src="{$path}" style="width:114px;height:151px;margin-right:20px;" /></td>
->>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
+				<td rowspan="4" style="text-align:left;">
+					<font size="-2">（此处未加盖钢印无效）</font><br><br>
+					&thinsp;&thinsp;<img src="{$path}" style="width:114px;height:151px;"/>
+				</td>
 			</tr>
 			<tr>
 				<td width="110px;"><h3>委 托 方:</h3></td>
@@ -237,14 +231,10 @@
 			</tr>
 			<tr>
 				<td colspan="3" style="line-height:30px;">
-<<<<<<< HEAD
 					<?php
 						$jazy=strip_tags($jieguo[0][jazy],'<br>');
 						echo $jazy;
 					?>
-=======
-					{$jieguo[0][jazy]}
->>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
 				</td>
 			</tr>
 			<tr>

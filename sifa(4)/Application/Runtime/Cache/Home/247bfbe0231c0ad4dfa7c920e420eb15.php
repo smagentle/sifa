@@ -193,7 +193,7 @@
         <table>
             <tr>
                 <td align="left">
-                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:150px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
+                    <input type="text" name="jds[sqname]" style="border-bottom:1px solid #333;width:180px;" value="<?php echo ($jds[0][sqname]); ?>">（申请人或委托机构：）
                 </td>
             </tr>
             <tr>
@@ -208,7 +208,7 @@
             </tr>
             <tr>
                 <td>
-                    序通则》第十一条、第十二条、第十六条，决定予以受理进行<input type="text" name="jds[bw]" style="border-bottom:1px solid #000000;width:60px;" value='{jds[0][bw]}'>部位，<input type="text" name="jds[ssjd]" style="border-bottom:1px solid #000000;width:120px;" value='{jds[0][ssjd]}'>损伤程度鉴定。
+                    序通则》第十一条、第十二条、第十六条，决定予以受理进行<input type="text" name="jds[bw]" style="border-bottom:1px solid #000000;width:60px;" value="<?php echo ($jds[0][bw]); ?>">部位，<input type="text" name="jds[ssjd]" style="border-bottom:1px solid #000000;width:120px;" value="<?php echo ($jds[0][ssjd]); ?>">损伤程度鉴定。
                 </td>
             </tr>
         </table><br/>
@@ -244,19 +244,11 @@
   		$v2.value = $v1.value;
   		$v5.value = $v0.value+$v3.value+$v4.value;
 	}
-<<<<<<< HEAD
   	/*function down(){
   		if(document.getElementById("vcode1").value == ''){
   			alert('委托人/方不能为空！');
   		}
   	}*/
-=======
-  	function down(){
-  		if(document.getElementById("vcode1").value == ''){
-  			alert('委托人/方不能为空！');
-  		}
-  	}
->>>>>>> 74a23020b3d121b4a13fd07101a1087314c8b90d
   	function up(){
         $v3 = document.getElementById("vcode3");
         $v5 = document.getElementById("vcode5");
